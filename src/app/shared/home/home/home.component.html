@@ -1,0 +1,33 @@
+<div class="bg-[#242424]  px-6 flex flex-col" >
+    <div class="flex justify-between   items-center">
+        <h2 class="text-3xl font-bold text-white">Popular artists</h2>
+        <a class="font-bold text-lg text-[#b3b3b3] hover:underline hover:text-[#b3b3b3]">Show all</a>
+    </div>
+    <div *ngFor="let option of data"  class="flex ">
+      <div class="md:w-1/5 flex p-3 justify-center relative ">
+        <div class="hover:bg-black hover:bg-opacity-10 px-3 rounded-lg">
+          <img class="artist" src="assets/image/sidhu.jpg">        
+              <div class="flex flex-col">
+                  <span class="text-xl font-semibold">Sidhu Moose Wala</span>
+                  <span class="text-xl font-semibold text-[#b3b3b3] ">Artist</span>
+              </div>
+              <div class="absolute top-52 right-10 " >
+                <button class="bg-green-600 hover:scale-105  text-black text-4xl flex w-16 h-16  rounded-full justify-center items-center"><span nz-icon  nzType="caret-right" nzTheme="outline"></span>         </button>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div>
+        <div class="flex justify-between   items-center">
+          <h2 class="text-3xl font-bold text-white">Popular albums</h2>
+          <a class="font-bold text-lg text-[#b3b3b3] hover:underline hover:text-[#b3b3b3]">Show all</a>
+      </div>
+        <div>
+           
+        </div>
+      </div>
+</div>
+
+
+    
+  
